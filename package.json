@@ -1,0 +1,26 @@
+{
+  "name": "restraurant-v1",
+  "version": "1.0.0",
+  "description": "Restaurant landing page menu The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigoscipio/restraurant-v1.git"
+  },
+  "author": "Samuel Oktavianus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indigoscipio/restraurant-v1/issues"
+  },
+  "homepage": "https://github.com/indigoscipio/restraurant-v1#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

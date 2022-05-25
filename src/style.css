@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue-50: #eff6ff;
+  --blue-100: #dbeafe;
+  --blue-300: #93c5fd;
+  --blue-500: #3b82f6;
+  --blue-600: #2563eb;
+  --slate-50: #f8fafc;
+  --slate-100: #f1f5f9;
+  --slate-300: #cbd5e1;
+  --slate-500: #64748b;
+  --slate-700: #334155;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: var(--slate-100);
+}
+
+.heading-2 {
+  font-size: 3.2rem;
+  color: var(--slate-700);
+}
+
+.heading-3 {
+  font-size: 2.4rem;
+  color: var(--slate-700);
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  color: var(--slate-500);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Images */
+img {
+  width: 100%;
+}
+
+.home-img {
+  border-radius: 50%;
+  width: 12.8rem;
+  height: 12.8rem;
+  background-image: url(Images/image-1.jpg);
+  background-size: cover;
+}
+
+.content-menu img {
+  width: 9.6rem;
+  height: 9.6rem;
+  border-radius: 50%;
+}
+
+/* content & layouts*/
+#content {
+  margin: 3.2rem auto;
+  width: 40%;
+  min-height: 24rem;
+  min-width: 64rem;
+  border-radius: 0.8rem;
+  background-color: white;
+  box-shadow: 0px 16px 32px rgba(47, 47, 59, 0.192);
+}
+
+/* Content Home */
+.content-home {
+  padding: 3.2rem;
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Content Menu */
+
+.content-menu {
+  grid-gap: 2rem;
+  padding: 3.2rem;
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+}
+
+.content-menu .heading-2 {
+  align-self: center;
+  justify-self: center;
+  grid-column: 1/-1;
+}
+
+/* Content contact */
+.content-contact {
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.menu-card {
+  gap: 1.6rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.4rem;
+  border-radius: 0.8rem;
+  border: 2px solid var(--slate-100);
+}
+
+/* components */
+.menu {
+  height: 6.4rem;
+  display: flex;
+  justify-content: center;
+  background-color: var(--blue-500);
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  display: flex;
+  padding: 0px 4.8rem;
+  align-items: center;
+  font-size: 1.8rem;
+  list-style: none;
+  align-self: stretch;
+}
+
+.menu-item:hover {
+  background-color: var(--blue-600);
+}
